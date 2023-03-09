@@ -13,7 +13,7 @@ Guide til kørsel og brug med Docker.
 * Login samt link til registrering af bruger vises på `http://localhost:8000/index.php`
 * Efter login kommer man til dashboard på `http://localhost:8000/dashboard.php`
 * Registrering foretages på `http://localhost:8000/register.php`
-* Databasen kan tilgåes via phpmyadmin på `http://localhost:8080` med username `root` og password `123456`
+* Databasen kan tilgåes via phpmyadmin på `http://localhost:8080` med brugernavn `root` og adgangskode `123456`
 
 ## Unit tests
 For at køre alle unit tests, kør følgende kommando i terminalen, fra rodmappen:
