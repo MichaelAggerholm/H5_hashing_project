@@ -24,6 +24,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     $result = $mysqli->query($query);
     if ($result && $result->num_rows > 0) {
         $user = $result->fetch_assoc();
+        // password_verify tjekker om det hashede password matcher det indtastede password som hash
         if (password_verify($password, $user['password'])) {
             $_SESSION['username'] = $user['username'];
             header('Location: dashboard.php');
