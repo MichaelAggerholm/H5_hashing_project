@@ -1,20 +1,4 @@
 <?php
-/*
-Opstart af program:
-docker-compose build
-
-Derefter:
-docker-compose up -d
-
-web:
-http://localhost:8000/index.php
-
-phpmyadmin:
-http://localhost:8080/
-
-Kør alle unit tests i mappen tests:
-docker exec hashing_projekt-web-1 phpunit /var/www/html/tests/
-*/
 
 session_start();
 
