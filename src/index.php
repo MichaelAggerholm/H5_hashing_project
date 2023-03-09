@@ -12,8 +12,6 @@ http://localhost:8000/index.php
 phpmyadmin:
 http://localhost:8080/
 
-Unit tests:
-
 Kør alle unit tests i mappen tests:
 docker exec hashing_projekt-web-1 phpunit /var/www/html/tests/
 */
